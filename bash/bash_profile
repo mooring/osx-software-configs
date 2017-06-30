@@ -16,7 +16,7 @@ export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 oldPS1='\h:\W \u\$'
 oldTERM='xterm-256color'
-PS1='\e[0;32m\]\[⌦ \] \e[0m\]\e[0;34m\]\w\e[0m\] '
+PS1='\e[32m\[⌦ \] \e[m\e[34m\w\e[m '
 
 export COPYFILE_DISABLE=1     #used for tar file to exclude mac hidden files and folders
 
