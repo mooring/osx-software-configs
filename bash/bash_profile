@@ -1,0 +1,22 @@
+export LANG="en_US.UTF-8"
+export LC_ALL="en_US.UTF-8"
+
+alias lprofile='. ~/.bash_profile'
+alias tailf='tail -f'
+
+alias capuuid='sudo tcpdump -i rvi0 -n -s 0 '
+alias capdroid='function _cap_(){ adb shell screenrecord --bit-rate=8m --bugreport "/sdcard/Movies/$1"; }; _cap_'
+alias pngdroid='function _png_(){ adb shell screencap "/sdcard/Movies/$1"; }; _png_'
+alias capget='function _get_(){ adb pull "sdcard/Movies/$1" ; }; _get_'
+
+alias wget='curl -O '
+alias icloud='cd ~/Library/Mobile\ Documents'
+
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+oldPS1='\h:\W \u\$'
+oldTERM='xterm-256color'
+PS1='\e[0;32m\]\[⌦ \] \e[0m\]\e[0;34m\]\w\e[0m\] '
+
+export COPYFILE_DISABLE=1     #used for tar file to exclude mac hidden files and folders
+
