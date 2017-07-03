@@ -4,6 +4,7 @@ Speed up your normal coding transform like md5, sha1, base64 encode, base64 deco
 
 *and all of this is done offline, without any net requests*
 
+![Screen Shot](https://github.com/mooring/osx-software-configs/blob/master/Alfred/screen-shoot.png?raw=true)
 
 ## features
 
