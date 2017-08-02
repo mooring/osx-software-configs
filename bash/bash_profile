@@ -8,6 +8,7 @@ alias capuuid='sudo tcpdump -i rvi0 -n -s 0 '
 alias capdroid='function _cap_(){ adb shell screenrecord --bit-rate=8m --bugreport "/sdcard/Movies/$1"; }; _cap_'
 alias pngdroid='function _png_(){ adb shell screencap "/sdcard/Movies/$1"; }; _png_'
 alias capget='function _get_(){ adb pull "sdcard/Movies/$1" ; }; _get_'
+alias removecap='function _rm_(){ adb shell rm -f "/sdcard/Movies/$1"; }; _rm_'
 
 alias wget='curl -O '
 alias icloud='cd ~/Library/Mobile\ Documents'
