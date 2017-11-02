@@ -1,7 +1,7 @@
 syntax   on
 filetype on
 
-au BufRead,BufNewFile BUILD set ft=blade
+au BufRead,BufNewFile BUILD  se ft=blade
 au BufNewFile,BufRead *.wxss se ft=css
 au BufNewFile,BufRead *.wxml se ft=xml
 
@@ -18,6 +18,7 @@ augroup python_space
     au FileType python se et list
 augroup end
 
+au BufNewFile,BufRead makefile,Makefile,MAKEFILE se et list
 se cursorline
 
 "se cursorcolumn
