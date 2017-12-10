@@ -10,7 +10,6 @@ alias cappng='function _png_(){ adb shell screencap "/sdcard/Movies/$1"; }; _png
 alias capget='function _get_(){ adb pull "sdcard/Movies/$1" ; }; _get_'
 alias capdel='function _rm_(){ adb shell rm -f "/sdcard/Movies/$1"; }; _rm_'
 
-alias wget='curl -O '
 alias icloud='cd ~/Library/Mobile\ Documents'
 
 export CLICOLOR=1
