@@ -18,7 +18,7 @@ augroup python_space
     au FileType python se et list
 augroup end
 
-au BufNewFile,BufRead makefile,Makefile,MAKEFILE se et list
+au BufNewFile,BufRead makefile,Makefile,MAKEFILE se noet list
 se cursorline
 
 "se cursorcolumn
