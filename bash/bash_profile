@@ -9,6 +9,7 @@ alias capmp4='function _cap_(){ adb shell screenrecord --bit-rate=8m --bugreport
 alias cappng='function _png_(){ adb shell screencap "/sdcard/Movies/$1"; }; _png_'
 alias capget='function _get_(){ adb pull "sdcard/Movies/$1" ; }; _get_'
 alias capdel='function _rm_(){ adb shell rm -f "/sdcard/Movies/$1"; }; _rm_'
+alias c='function _c_(){ p="$1"; if [ -d "${!p}" ];then cd "${!p}"; else echo "\$$p not exits";fi; }; _c_'
 
 alias icloud='cd ~/Library/Mobile\ Documents'
 
