@@ -7,7 +7,7 @@
     "window.zoomLevel": 1,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
-    "editor.formatOnPaste": true,
+    "editor.formatOnPaste": false,
     "files.associations": {
         "*.wxml": "xml",
         "*.wxss": "css"
